@@ -1,0 +1,395 @@
+
+
+
+    
+    
+    StudyFlow - CBSE Class 10 Notes
+    
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 50px;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        header p {
+            font-size: 1.2em;
+            opacity: 0.95;
+        }
+
+        .creator {
+            color: rgba(255,255,255,0.8);
+            font-size: 0.95em;
+            margin-top: 15px;
+        }
+
+        .subjects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 50px;
+        }
+
+        .subject-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .subject-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 50px rgba(0,0,0,0.3);
+        }
+
+        .subject-header {
+            padding: 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .subject-header h2 {
+            font-size: 1.8em;
+            margin-bottom: 5px;
+        }
+
+        .subject-header p {
+            opacity: 0.9;
+            font-size: 0.95em;
+        }
+
+        .chapters-list {
+            padding: 20px;
+        }
+
+        .chapter {
+            padding: 15px;
+            margin-bottom: 10px;
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .chapter:hover {
+            background: #e9ecef;
+            padding-left: 20px;
+        }
+
+        .chapter h3 {
+            color: #333;
+            font-size: 1.1em;
+            margin-bottom: 5px;
+        }
+
+        .chapter p {
+            color: #666;
+            font-size: 0.9em;
+            display: none;
+        }
+
+        .chapter.active p {
+            display: block;
+            margin-top: 10px;
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            color: white;
+            padding: 30px;
+            margin-top: 50px;
+            opacity: 0.9;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            
+            .subjects-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    
+
+
+    
+        
+            📚 StudyFlow
+            Master CBSE Class 10 with Simple, Clear Notes
+            Created by Chirag Arora
+        
+
+        
+            
+            
+                
+                    📐 Mathematics
+                    Master numbers and formulas
+                
+                
+                    
+                        Chapter 4: Quadratic Equations
+                        Key Concepts:
+                        • A quadratic equation is an equation of the form ax² + bx + c = 0, where a ≠ 0
+                        • The solutions (roots) can be found using the quadratic formula: x = [-b ± √(b²-4ac)] / 2a
+                        • Discriminant (Δ) = b² - 4ac determines the nature of roots
+                        • If Δ > 0: Two distinct real roots
+                        • If Δ = 0: One repeated real root
+                        • If Δ < 0: No real roots (imaginary roots)
+                        How to Solve:
+                        1. Write the equation in standard form ax² + bx + c = 0
+                        2. Identify a, b, and c values
+                        3. Calculate the discriminant
+                        4. Apply the quadratic formula
+                        5. Simplify to get the roots
+                        Example: Solve x² - 5x + 6 = 0
+                        Here a=1, b=-5, c=6
+                        Δ = 25 - 24 = 1
+                        x = (5 ± 1)/2 = 3 or 2
+                    
+
+                    
+                        Chapter 1: Real Numbers
+                        Key Concepts:
+                        • Real numbers include all rational and irrational numbers
+                        • Euclid's Division Lemma: For any two positive integers a and b, there exist unique integers q and r such that a = bq + r, where 0 ≤ r < b
+                        • HCF (Highest Common Factor) can be found using Euclidean algorithm
+                        • Fundamental Theorem of Arithmetic: Every composite number can be expressed as a product of prime numbers
+                        • For a fraction to have terminating decimal, denominator must have only factors of 2 and 5
+                        Important Formulas:
+                        • HCF × LCM = Product of two numbers
+                        • Prime factorization helps find HCF and LCM
+                        Types of Decimals:
+                        • Terminating: 1/4 = 0.25
+                        • Non-terminating repeating: 1/3 = 0.333...
+                        • Non-terminating non-repeating (irrational): π, √2
+                    
+
+                    
+                        Chapter 6: Triangles
+                        Key Concepts:
+                        • Similar triangles have the same shape but different sizes
+                        • Two triangles are similar if their corresponding angles are equal (AA similarity)
+                        • Basic Proportionality Theorem (Thales' Theorem): If a line is drawn parallel to one side of a triangle, it divides the other two sides proportionally
+                        • Congruent triangles are identical in shape and size
+                        Criteria for Similar Triangles:
+                        • AA (Angle-Angle) Similarity
+                        • SSS (Side-Side-Side) Similarity
+                        • SAS (Side-Angle-Side) Similarity
+                        Important Theorems:
+                        • Pythagoras Theorem: In a right triangle, a² + b² = c²
+                        • Area ratio of similar triangles = (ratio of corresponding sides)²
+                    
+                
+            
+
+            
+            
+                
+                    🧪 Science
+                    Explore matter and life
+                
+                
+                    
+                        Chapter 3: Metals and Non-metals
+                        Key Concepts:
+                        • Metals are elements that lose electrons to form positive ions (cations)
+                        • Non-metals are elements that gain electrons to form negative ions (anions)
+                        • Metalloids have properties of both metals and non-metals
+                        Properties of Metals:
+                        • Lustrous (shiny)
+                        • Malleable (can be hammered into sheets)
+                        • Ductile (can be drawn into wires)
+                        • Good conductors of heat and electricity
+                        • Sonorous (produce sound when struck)
+                        • Generally solid at room temperature (except mercury)
+                        Properties of Non-metals:
+                        • Usually not lustrous
+                        • Brittle (break easily)
+                        • Poor conductors of heat and electricity
+                        • Can be solid, liquid, or gas at room temperature
+                        Chemical Reactions:
+                        • Metal + Oxygen → Metal Oxide
+                        • 4Na + O₂ → 2Na₂O (burns with bright flame)
+                        • Non-metal + Oxygen → Non-metal Oxide
+                        • S + O₂ → SO₂ (burns with blue flame)
+                    
+
+                    
+                        Chapter 1: Chemical Reactions and Equations
+                        Key Concepts:
+                        • A chemical reaction is a process where substances are transformed into new substances
+                        • Chemical equations represent reactions using symbols and formulas
+                        • Law of Conservation of Mass: Matter cannot be created or destroyed, only changed
+                        Types of Chemical Reactions:
+                        • Combination: A + B → AB (e.g., 2H₂ + O₂ → 2H₂O)
+                        • Decomposition: AB → A + B (e.g., 2H₂O → 2H₂ + O₂)
+                        • Displacement: A + BC → AC + B (e.g., Fe + CuSO₄ → FeSO₄ + Cu)
+                        • Double Displacement: AB + CD → AD + CB
+                        Balancing Equations:
+                        1. Count atoms on both sides
+                        2. Add coefficients to balance
+                        3. Never change subscripts
+                        4. Check that equation is balanced
+                        Indicators of Chemical Reaction:
+                        • Change in color
+                        • Production of gas
+                        • Formation of precipitate
+                        • Change in temperature
+                    
+
+                    
+                        Chapter 5: Periodic Classification of Elements
+                        Key Concepts:
+                        • Periodic table arranges elements in order of increasing atomic number
+                        • Mendeleev's Periodic Law: Properties of elements are periodic functions of their atomic weights
+                        • Modern Periodic Law: Properties of elements are periodic functions of their atomic numbers
+                        Organization:
+                        • Rows are called Periods (1-7)
+                        • Columns are called Groups (1-18)
+                        • Period number = number of electron shells
+                        • Group number = valence electrons
+                        Classification:
+                        • Metals: Left side (s, d, f blocks)
+                        • Non-metals: Right side (p block)
+                        • Metalloids: Staircase line
+                        Trends:
+                        • Atomic size decreases left to right in a period
+                        • Atomic size increases top to bottom in a group
+                        • Ionization energy increases left to right
+                        • Electronegativity increases left to right
+                    
+                
+            
+
+            
+            
+                
+                    🌍 Social Studies
+                    Understand society and history
+                
+                
+                    
+                        Chapter 1: The French Revolution (1789-1799)
+                        Key Concepts:
+                        • The French Revolution was a major social and political upheaval in France
+                        • It marked the end of feudalism and the beginning of modern political thought
+                        • Caused by: Heavy taxation, food shortage, Enlightenment ideas, weak leadership
+                        Key Events:
+                        • 1789: Storming of Bastille (July 14) - became symbol of revolution
+                        • August 1789: Declaration of the Rights of Man and Citizen
+                        • October 1789: Women's March on Versailles
+                        • 1791: Royal family's failed escape attempt (Flight to Varennes)
+                        • 1792: France declared a Republic
+                        • 1793: Execution of King Louis XVI
+                        • 1793-1794: Reign of Terror under Robespierre
+                        Important Figures:
+                        • Maximilien Robespierre: Led the Reign of Terror
+                        • Georges Danton: Moderate revolutionary leader
+                        • Jean-Paul Marat: Radical leader and journalist
+                        Outcomes:
+                        • End of feudalism and monarchy
+                        • Rise of nationalism
+                        • Spread of democratic ideals across Europe
+                        • Influenced revolutions worldwide
+                    
+
+                    
+                        Chapter 3: Nazism and the Rise of Hitler
+                        Key Concepts:
+                        • Nazism was an extreme form of fascism developed in Germany
+                        • Adolf Hitler became leader of Nazi Party (NSDAP) in 1921
+                        • Nazi ideology: Racial superiority, militarism, total state control
+                        Why Did Hitler Rise to Power?
+                        • Treaty of Versailles (1919) humiliated Germany with harsh terms
+                        • Economic crisis and Great Depression (1929) caused mass unemployment
+                        • Political instability of Weimar Republic
+                        • Hitler promised to restore German pride and strength
+                        • Used propaganda and violence effectively
+                        Key Events:
+                        • 1923: Failed Munich Putsch (Beer Hall Putsch)
+                        • 1933: Hitler appointed Chancellor of Germany
+                        • 1933: Enabling Act - gave Hitler dictatorial powers
+                        • 1934: Night of the Long Knives - purged rivals
+                        • 1935: Nuremberg Laws - stripped Jews of citizenship
+                        • 1938: Kristallnacht - violent persecution of Jews
+                        Nazi Policies:
+                        • Lebensraum (living space) - territorial expansion
+                        • Rearmament - built up military power
+                        • Persecution of minorities, especially Jews
+                        • Total mobilization for war
+                        • The Holocaust - systematic genocide of 6 million Jews
+                    
+
+                    
+                        Chapter 5: Towards Equality (Indian Constitution)
+                        Key Concepts:
+                        • India's Constitution was adopted on January 26, 1950 (Republic Day)
+                        • Dr. Bhimrao Ambedkar was the chief architect of the Constitution
+                        • Constitution established India as a sovereign democratic republic
+                        Fundamental Rights (Part III):
+                        • Right to Equality: No discrimination based on religion, caste, sex, race, place of birth
+                        • Right to Freedom: Freedom of speech, assembly, association, movement, residence
+                        • Right against Exploitation: Prohibition of slavery and forced labor
+                        • Right to Freedom of Religion: Freedom to practice any religion
+                        • Right to Constitutional Remedies: Can approach courts for protection of rights
+                        Directive Principles of State Policy (Part IV):
+                        • Guide the state in making laws and policies
+                        • Not directly enforceable but morally binding
+                        • Include: Welfare of people, education, healthcare, environment protection
+                        Significance:
+                        • Largest written constitution in the world
+                        • Guarantees social and political equality
+                        • Protects rights of minorities and marginalized sections
+                        • Has been amended 104 times to keep pace with changing needs
+                    
+                
+            
+        
+
+        
+            StudyFlow © 2024 | Making CBSE Class 10 Studies Simple and Effective
+            Created by Chirag Arora | All rights reserved
+        
+    
+
+    
+        function toggleChapter(element) {
+            const siblings = element.parentElement.children;
+            for (let sibling of siblings) {
+                if (sibling !== element && sibling.classList.contains('active')) {
+                    sibling.classList.remove('active');
+                }
+            }
+            element.classList.toggle('active');
+        }
+    
+
